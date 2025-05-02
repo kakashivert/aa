@@ -1,0 +1,62 @@
+<!DOCTYPE html>: HTML5 belgesi olduğunu belirtir.
+<html lang="tr">: Sayfanın dilini Türkçe olarak ayarlar.
+<head>: Sayfanın başlık, stil ve meta verilerinin bulunduğu bölüm.
+<body>: Sayfanın içerik kısmı. Başlıklar, metinler, görseller, bağlantılar burada yer alır. 
+<header>: Sayfanın başlık kısmı. Genellikle logo, menü ve site başlığı burada bulunur.
+<main>: Sayfanın ana içeriği.
+<footer>: Sayfanın alt kısmı, genellikle telif hakkı bilgileri ve iletişim bilgileri yer alır.
+CSS ve JavaScript Bağlantıları: Bu dosyada stil ve işlev eklemek için dış CSS (style.css) ve JavaScript (script.js) dosyalarını ekledik.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. Önemli Etiketler
+HTML'de en sık kullanılan etiketlere bakalım:
+
+Başlıklar
+Başlıklar h1'den h6'ya kadar değişir. h1 en büyük, h6 en küçük başlıktır.
+
+<h1>Bu bir H1 başlığıdır</h1>
+<h2>Bu bir H2 başlığıdır</h2>
+<h3>Bu bir H3 başlığıdır</h3>
+
+Paragraflar
+Metin yazmak için <p> etiketi kullanılır.
+
+<p>Bu bir paragraf örneğidir.</p>
+
+Listeler:
+Sırasız Liste:
+
+<ul>
+    <li>Elma</li>
+    <li>Armut</li>
+    <li>Çilek</li>
+</ul>
+Sıralı Liste:
+
+<ol>
+    <li>İlk Adım</li>
+    <li>İkinci Adım</li>
+    <li>Üçüncü Adım</li>
+</ol>
+
+Bağlantılar
+Bir web sitesine bağlantı vermek için <a> etiketi kullanılır.
+
+<a href="https://www.google.com" target="_blank">Google'ı ziyaret et</a>
+target="_blank" bağlantıyı yeni bir sekmede açar.
+
+Resimler
+Sayfaya resim eklemek için <img> etiketi kullanılır.
+
+<img src="resim-adi.jpg" alt="Resim Açıklaması" width="300">
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2. CSS Dosyaları Eklemek
+CSS (Cascading Style Sheets), web sayfanızın stilini (yani görünümünü) düzenlemek için kullanılan bir dildir. Bu dosyada, sayfanın renkleri, yazı tipleri, düzeni gibi stil ayarları bulunur.
+
+Komut:
+<link rel="stylesheet" href="style.css">
+
+Açıklama:
+<link>: Bu, HTML ile dış kaynakları bağlamak için kullanılan bir etikettir. CSS dosyalarını HTML belgesine eklemek için kullanılır.
+rel="stylesheet": Bu, bağlantının bir stil dosyasına işaret ettiğini belirtir. Yani, bu bağlantı bir CSS dosyasına bağlanacaktır.
+href="style.css": Burada CSS dosyasının adı ve yolu belirtilir. style.css, bağlanmak istenen stil dosyasının adıdır. Bu dosya HTML ile aynı klasörde yer alıyorsa, sadece ismi yazılır. Eğer başka bir klasörde ise, tam yolu (örneğin, css/style.css) vermeniz gerekir.
+Örnek: Eğer style.css adında bir CSS dosyanız varsa ve bu dosya aynı klasörde bulunuyorsa, bu komutla HTML sayfanıza bağlanır.

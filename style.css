@@ -1,0 +1,204 @@
+body{
+    background-color: #f4f4f4;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color:#333;
+}
+header{
+    background-color:#007BFF;
+    color:white;
+    padding: 40px 20px;
+    text-align:center;
+}
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+header p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+nav{
+    background-color:#333;
+    overflow:hidden;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align:center;
+}
+nav ul li{
+    display:inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size: 18px;
+    padding:10px 20px;
+    border-radius:5px;
+
+}
+nav ul li a:hover{
+    background-color:#0056b3
+}
+footer{
+    background-color:#333;
+    color:white;
+    text-align:center;
+    padding: 20px;
+    position:fixed;
+    width: 100%;
+    bottom:0;
+    font-size:14px;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+.auth-links {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.auth-links a {
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.auth-links a:hover {
+    background-color: white;
+    color: #007BFF;
+}
+a:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+main {
+    padding: 40px 20px;  /* İç boşluk */
+    background-color: white;  /* Arka plan rengi beyaz */
+    max-width: 1200px;  /* Maksimum genişlik */
+    margin: 20px auto;  /* Sayfa ortalanmış şekilde */
+    border-radius: 8px;  /* Yuvarlatılmış köşeler */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);  /* Hafif gölge efekti */
+}
+
+/* Başlıklar için stil */
+main h2 {
+    font-size: 24px;
+    color:#0056b3;  /* Mor renk */
+    margin-bottom: 15px;
+}
+
+main ul {
+    list-style-type: none;  /* Liste işaretlerini kaldırır */
+    padding: 0;
+}
+
+main ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+main ul li strong {
+    color: #4CAF50;  /* Oyun isimlerini yeşil yapar */
+    font-weight: bold;
+}
+
+/* Bağlantılar için stil */
+main p a {
+    color: #6a5acd;  /* Bağlantılar mor renk olacak */
+    text-decoration: none;  /* Alt çizgi yok */
+    font-weight: bold;
+    transition: color 0.3s ease;  /* Renk değişim geçişi */
+}
+
+main p a:hover {
+    color: #333;  /* Bağlantılara hover efekti */
+}
+.guides {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.guide-box {
+    background-color: #fff;
+    width: 32%;  /* Kutuların genişliği */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;  /* Resim dışındaki alanı gizler */
+}
+
+.guide-box img {
+    width: 100%;  /* Resim genişliği kutunun tamamını kapsar */
+    height: auto;
+}
+
+.guide-content {
+    padding: 20px;
+}
+
+.guide-content h3 {
+    font-size: 20px;
+    color: #6a5acd;
+    margin-bottom: 10px;
+}
+
+.guide-content p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.guide-content a {
+    color: #6a5acd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.guide-content a:hover {
+    color: #333;
+}
